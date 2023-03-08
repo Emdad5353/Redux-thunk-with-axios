@@ -3,6 +3,16 @@
 A practice project of redux with redux thunk and axios api call
 
 Redux Thunk is a middleware library for Redux that allows you to write asynchronous logic that interacts with the Redux store. 
+Here are some common use cases for Redux Thunk:
+
+1. Asynchronous actions: Redux Thunk allows you to write action creators that return functions instead of plain objects. This makes it easy to write asynchronous logic such as API calls or timers in your Redux actions.
+
+2. Conditional logic: With Redux Thunk, you can write action creators that perform different logic based on certain conditions. For example, you could write an action creator that dispatches a certain action if a condition is met, or a different action if the condition is not met.
+
+3. Dispatching multiple actions: Redux Thunk allows you to dispatch multiple actions from a single action creator. This can be useful if you need to dispatch several actions in response to a single event.
+
+4. Accessing the Redux store: With Redux Thunk, you can access the current state of the Redux store and dispatch actions based on that state. This can be useful if you need to perform complex logic based on the current state of your application.
+
 
 npm install redux
 
